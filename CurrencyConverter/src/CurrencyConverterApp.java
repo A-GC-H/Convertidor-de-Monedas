@@ -15,8 +15,7 @@ import java.util.Scanner;
 
 public class CurrencyConverterApp {
 
-    // Reemplaza YOUR_API_KEY con tu clave de API real de ExchangeRate-API.com
-    private static final String API_KEY = "9c4776dcd9d813da069efd64"; // <-- ¡IMPORTANTE: Reemplaza esto!
+    private static final String API_KEY = "9c4776dcd9d813da069efd64";
     private static final String API_BASE_URL = "https://v6.exchangerate-api.com/v6/";
 
     private final HttpClient httpClient;
@@ -90,7 +89,7 @@ public class CurrencyConverterApp {
     }
 
     public static void main(String[] args) {
-        // !!! Asegúrate de reemplazar "TU_CLAVE_API_AQUI" en la constante API_KEY arriba !!!
+
         if (API_KEY.equals("TU_CLAVE_API_AQUI")) {
             System.err.println("ERROR: Por favor, reemplaza 'TU_CLAVE_API_AQUI' con tu clave de API real de ExchangeRate-API.com.");
             System.err.println("Puedes obtener una clave gratuita en: https://www.exchangerate-api.com/.");
